@@ -7,3 +7,16 @@ Apart from pore size and number, minimum pore spacing should also be provided to
 program input file: input_CREATE_PORE.dat
 Initial membrane file:  <any_name>.xyz
 Output membrane with pores: NEW_<any_name>.xyz
+Main program file: create_pore.f90
+Example membrane file: mos2020.xyz
+
+compile the main program file with any compiler:-
+gfortran create_pore.f90 -o create_pore.out
+
+Edit the input file: input_CREATE_PORE.dat
+
+run program:-
+./create_pore.out
+
+Analysis output using vmd or other visualization software;-
+vmd NEW_mos2020.xyz
