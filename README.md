@@ -4,6 +4,7 @@ The input membrane is in x-y plane and the formate is vmd *.xyz
 You can make any number of circular pores randomly of fixed size, that are used for creating the membrane.
 Apart from pore size and number, minimum pore spacing should also be provided to maintain the structural integrity of the membrane.
 All units are in Angstrom.
+By chaning the seed for the random number generator, position of the pores in the membrane can be changed (randomly)
 
 program input file: input_CREATE_PORE.dat
 Initial membrane file:  <any_name>.xyz
