@@ -1,5 +1,5 @@
-13444         NATOM_OLD
-15             NPORE
-20            PORE_SIZE
-4             MIN_PORE_SEP
-mos2020.xyz   MEMBRANE_FILE
+13444         NATOM_OLD     ! number of atoms in the membrane
+15            NPORE         ! number of pores to be created
+20            PORE_SIZE     ! diameter of the pore in Angstrom
+4             MIN_PORE_SEP  ! minimum distance between two pores in Angstrom 
+mos2020.xyz   MEMBRANE_FILE ! input file of the membrane in vmd *.xyz format 
