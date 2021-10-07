@@ -1,5 +1,6 @@
 13444         NATOM_OLD     ! number of atoms in the membrane
 15            NPORE         ! number of pores to be created
-20            PORE_SIZE     ! diameter of the pore in Angstrom
-4             MIN_PORE_SEP  ! minimum distance between two pores in Angstrom 
+15            PORE_SIZE     ! diameter of the pore in Angstrom
+10            MIN_PORE_SEP  ! minimum distance between two pores in Angstrom 
+-9899         SEED          ! seed for the random number generator
 mos2020.xyz   MEMBRANE_FILE ! input file of the membrane in vmd *.xyz format 
